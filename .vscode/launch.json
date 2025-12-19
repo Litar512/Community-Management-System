@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug tdtdf (UCRT64)",
+            "type": "cppdbg",
+            "request": "launch",
+
+            "program": "${workspaceFolder}/tdtdf.exe",
+            "cwd": "${workspaceFolder}",
+
+            "stopAtEntry": false,
+            "externalConsole": true,
+
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+
+            "preLaunchTask": "build-tdtdf",
+
+            "console": "externalTerminal",
+
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

@@ -1138,7 +1138,7 @@ public:
 };
 
 int main() {
-    // 设置 Windows 控制台代码页为 UTF-8，解决中文乱码问题
+    // 设置 Windows 控制台代码页为 UTF-8解决中文乱码问题
     #ifdef _WIN32
     system("chcp 65001");
     #endif

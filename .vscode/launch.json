@@ -17,7 +17,7 @@
 
             "preLaunchTask": "build-tdtdf",
 
-            "console": "externalTerminal",
+           // "console": "externalTerminal",
 
             "setupCommands": [
                 {
